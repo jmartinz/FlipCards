@@ -1,0 +1,19 @@
+#datos{
+	position:relative;
+	margin-left:50px;
+	margin-top:50px;
+}
+	#datos p{
+		height:30px;
+		line-height:30px;
+		text-decoration:underline;
+		color:blue;
+		font-size:1.2rem;
+		
+	}
+	#datos p:hover{
+		cursor:pointer;
+		background-color:rgba(55, 124, 178, 0.33);
+		
+	}
+	

@@ -1,0 +1,167 @@
+
+#contenedoranimacion {
+    width:420px;
+	height:450px;
+    margin:150px auto;
+	position:relative;
+}
+
+#contenedoranimacion img {	
+    -webkit-transition: all 0.2s ease-in;
+    transition: all 0.2s ease-in;
+}
+
+#contenedoranimacion:hover img {
+    opacity: 0.1;
+    -webkit-transform: scale(0.8);
+    -ms-transform: scale(0.8);
+    transform: scale(0.8);
+}
+
+#contenedoranimacion:hover img:hover {
+    opacity: 1.0;
+    -webkit-transform: scale(1.6);
+    -ms-transform: scale(1.6);
+    transform: scale(1.6);
+}
+
+
+#cursoINAP{
+	background-color: #377CB2;
+	color: white;
+	padding: 15px;
+	text-align: center;
+	font-family: helvetica;
+	position:relative;
+	margin-top: 50px;
+}
+.img{
+position:relative;
+	cursor:pointer;
+}
+
+#cursoINAP a{
+	color:rgb(178, 255, 178);
+	border:0;
+}
+
+#cursoINAP a:hover{
+	color:white;
+	background-color: black;
+}
+
+#inicio{
+	/* Invoca a la animación por su nombre*/
+    -webkit-animation-name: animacion_inicio; /* Chrome, Safari, Opera */
+    animation-name: animacion_inicio;
+	/*Especifica la duración de la animación*/
+	-webkit-animation-duration: 4s; /* Chrome, Safari, Opera */
+    animation-duration: 4s;
+	/* Número de veces que se repite */
+	-webkit-animation-iteration-count: 1; /* Chrome, Safari, Opera */
+	animation-iteration-count: 1;
+}
+#agenda{
+	/* Invoca a la animación por su nombre*/
+    -webkit-animation-name: animacion_agenda; /* Chrome, Safari, Opera */
+    animation-name: animacion_agenda;
+	/*Especifica la duración de la animación*/
+	-webkit-animation-duration: 4s; /* Chrome, Safari, Opera */
+    animation-duration: 4s;
+	/* Número de veces que se repite */
+	-webkit-animation-iteration-count: 1; /* Chrome, Safari, Opera */
+	animation-iteration-count: 1;
+}
+#contacta{
+	/* Invoca a la animación por su nombre*/
+    -webkit-animation-name: animacion_contacta; /* Chrome, Safari, Opera */
+    animation-name: animacion_contacta;
+	/*Especifica la duración de la animación*/
+	-webkit-animation-duration: 4s; /* Chrome, Safari, Opera */
+    animation-duration: 4s;
+	/* Número de veces que se repite */
+	-webkit-animation-iteration-count: 1; /* Chrome, Safari, Opera */
+	animation-iteration-count: 1;
+}
+#ayuda{
+	/* Invoca a la animación por su nombre*/
+    -webkit-animation-name: animacion_ayuda; /* Chrome, Safari, Opera */
+    animation-name: animacion_ayuda;
+	/*Especifica la duración de la animación*/
+	-webkit-animation-duration: 4s; /* Chrome, Safari, Opera */
+    animation-duration: 4s;
+	/* Número de veces que se repite */
+	-webkit-animation-iteration-count: 1; /* Chrome, Safari, Opera */
+	animation-iteration-count: 1;
+}
+/*ANIMACION DE MOVIMIENTO*/
+/* Chrome, Safari, Opera */
+@-webkit-keyframes animacion_inicio {
+	0%   {opacity:1.0; left:0px; top:0px;}
+    1%   {opacity:0.0; left:0px; top:0px;}
+    25%  {opacity:0.25; left:0px; top:210px;}
+    50%  {opacity:0.50; left:210px; top:210px;}
+	75%  {opacity:0.75; left:210px; top:0px;}
+    100% {opacity:1.0; left:0px; top:0px;}
+}
+/* Standard syntax */
+@keyframes animacion_inicio {
+	0%   {opacity:1.0; left:0px; top:0px;}
+    1%   {opacity:0.0; left:0px; top:0px;}
+    25%  {opacity:0.25; left:0px; top:210px;}
+    50%  {opacity:0.50; left:210px; top:210px;}
+	75%  {opacity:0.75; left:210px; top:0px;}
+    100% {opacity:1.0; left:0px; top:0px;}
+}
+
+/* Chrome, Safari, Opera */
+@-webkit-keyframes animacion_agenda {
+    0%   {opacity:0.0; left: 0px; top:0px;}
+	25%   {opacity:0.25; left: -210px; top:0px;}
+	50%   {opacity:0.50; left:-210px; top:210px;}
+    75%  {opacity:0.750; left:0px; top:210px;}
+    100%  {opacity:1.0; left:0px; top:0px;}
+}
+/* Standard syntax */
+@keyframes animacion_agenda {
+    0%   {opacity:0.0; left: 0px; top:0px;}
+	25%   {opacity:0.25; left: -210px; top:0px;}
+	50%   {opacity:0.50; left:-210px; top:210px;}
+    75%  {opacity:0.750; left:0px; top:210px;}
+    100%  {opacity:1.0; left:0px; top:0px;}
+}
+
+/* Chrome, Safari, Opera */
+@-webkit-keyframes animacion_contacta {
+    0%   {opacity:0.0; left: 0px; top:0px;}
+	25%   {opacity:0.25; left: 210px; top:0px;}
+	50%   {opacity:0.50; left:210px; top:-210px;}
+    75%  {opacity:0.750; left:0px; top:-210px;}
+    100%  {opacity:1.0; left:0px; top:0px;}
+	
+}
+/* Standard syntax */
+@keyframes animacion_contacta {
+    0%   {opacity:0.0; left: 0px; top:0px;}
+	25%   {opacity:0.25; left:210px; top:0px;}
+	50%   {opacity:0.50; left:210px; top:-210px;}
+    75%  {opacity:0.750; left:0px; top:-210px;}
+    100%  {opacity:1.0; left:0px; top:0px;}
+}
+
+/* Chrome, Safari, Opera */
+@-webkit-keyframes animacion_ayuda {    
+	0%   {opacity:0.0; left: 0px; top:0px;}
+	25%   {opacity:0.25; left: 0px; top:-210px;}
+	50%   {opacity:0.50; left:-210px; top:-210px;}
+    75%  {opacity:0.750; left:-210px; top:0px;}
+    100%  {opacity:1.0; left:0px; top:0px;}
+	
+/* Standard syntax */
+@keyframes animacion_ayuda {
+    0%   {opacity:0.0; left: 0px; top:0px;}
+	25%   {opacity:0.25; left: 0px; top:210px;}
+	50%   {opacity:0.50; left:-210px; top:210px;}
+    75%  {opacity:0.750; left:-210px; top:0px;}
+    100%  {opacity:1.0; left:0px; top:0px;}
+}

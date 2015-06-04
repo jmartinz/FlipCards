@@ -1,0 +1,132 @@
+#formulario{
+	display:none;
+}
+#idContacto{
+	display:none;
+}
+
+.contacto{
+	position:relative;
+	width:960px;
+	height:30px;
+	line-height:30px;
+	border-radius:4px;
+	border:1px solid #377CB2;
+	margin-top:1px;
+	padding-left:5px;
+}
+	.contacto:hover{
+		cursor:pointer;
+		background-color:rgba(55, 124, 178, 0.33);
+	}
+.nombre{
+	position:absolute;
+	left:10px;
+	width:250px;
+	white-space: nowrap;
+	overflow: hidden;
+	text-overflow: ellipsis;
+}
+	.nombre:before{
+		content:'Nombre:  ';
+		font-weight: bold;
+	}
+
+.email{
+	position:absolute;
+	left:300px;
+	width:350px;
+	white-space: nowrap;
+	overflow: hidden;
+	text-overflow: ellipsis;
+
+}
+	.email:before{
+		content:'email:  ';
+		font-weight: bold;
+	}
+
+.telefono{
+	position:absolute;
+	right:30px;
+	width:120px;
+
+}
+	.telefono:before{
+		content:'Tfno:  ';
+		font-weight: bold;
+	}
+.papelera{
+	position:absolute;
+	right:6px;
+	top:2px;
+	height: 24px;
+	width: 24px;
+	background-image: url(../img/papeleraFicha.png);	
+	cursor: pointer
+}
+
+#lista{
+	margin:4px 0;
+}
+#btnAnadir{
+  height: 53px;
+  width: 53px;
+  background-image: url(../img/BtnAnadirUsuario.png);
+  margin: 10px auto 4px auto;
+  cursor: pointer
+}
+#lblAnadir{
+  color: #7092BE;
+  text-align:center;
+}
+fieldset{
+	position:relative;
+	width:530px;
+	margin: 30px auto;
+	border: solid 1px #7092BE;
+	border-radius: 5px;
+	line-height:35px;
+}
+	#datosPersonales{
+		height:235px;
+		
+	}
+		#datos1{
+			position:absolute;
+			top:56px;
+			left:30px;
+			width:530px;
+			
+		}
+		
+p{
+	font-size:1.2rem;
+	line-height:2.5rem;
+}
+		
+.inputText {
+  position: absolute;
+  width:350px;
+  left: 120px;
+  height: 30px;
+  font-weight: lighter;
+  line-height: 32px;
+  text-align: left;
+  font-size: 1rem !important;
+  border-radius: 5px;
+  box-shadow: none;
+  margin-left: 0px;
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+  min-width: 100px;
+  padding: 0px 10px 4px 10px;
+  background-color: #D8E5F7;
+  color: #39649c;
+  border: 1px solid #7092BE;
+  
+  }
+
+
+

@@ -1,0 +1,100 @@
+
+ /*---------- NEUTRALIDAD ---------*/
+body,div,a,p,ul,li{
+	margin:0;
+	padding:0;
+}
+body{
+	font-size:14px;
+	width:960px;
+	margin:0 auto;
+	font-family: Segoe UI, Verdana, Geneva, Arial, helvetica, sans-serif;
+}
+ul{
+	list-style-type: none;
+}
+		
+
+/*---------- CABECERA ---------*/
+header {
+    height:45px;
+	line-height:45px;
+	font-size:2rem;
+	color:#377CB2;
+    text-align:center;
+    position:relative;
+    margin:0;
+    padding:0;
+	
+}
+/*----------- CONTENIDO --------*/	
+#contenedor {  
+	position:relative;
+	width:100%; 
+	min-height:720px;
+}
+	.menu{
+		
+		margin:0 auto;
+		border-top: 5px solid #377CB2;
+		border-bottom: 1px solid #377CB2;
+	}
+	
+	.menu ul{
+		font-size:0;
+	}
+	.menu li{
+		display: inline-block;
+		cursor:pointer;
+		width:50%;
+		text-align:center;
+	}
+		.menu li:hover{
+			background-color:rgba(55, 124, 178, 0.2);
+		}
+	.menu span{		
+		font-size:1.6rem;
+		color: #7092BE;
+		line-height:4rem;
+	}
+	.menu i{	
+		font-size:28px;		
+		color:#377CB2;
+	}
+	
+#dialog{
+	display:none;
+}	
+#card {
+    height:45px;
+	line-height:45px;
+	font-size:2rem;
+	color:#ee7CB2;
+    text-align:center;
+    position:relative;
+    margin:0;
+    padding:0;
+    background-color:#ddd;
+	
+}
+#card #answer {
+    padding: 50px;
+    display: none;
+    background-color:#aaa;
+}
+
+#card #question {
+    cursor:help;
+}
+
+
+/*------------- PIE -----------*/	
+footer {
+	border-top: 1px solid #377CB2;
+    text-align:center;
+    height:25px;    
+    margin-top:20px;
+    width:100%;
+}
+
+  

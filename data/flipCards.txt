@@ -1,0 +1,7 @@
+[
+{ "ID": 1, "txt": "dog", "img": "dog.gif"},
+{ "ID": 2, "txt": "cat", "img": "cat.gif"}, 
+{ "ID": 3, "txt": "pliers", "img": "pliers.gif"},
+{ "ID": 4, "txt": "crane", "img": "crane.jpg"},
+{ "ID": 5, "txt": "tiger", "img": "tiger.png"}
+]
